@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/astuto/static/css/main.5493947f.css",
+    "main.js": "/astuto/static/js/main.9e9e04f7.js",
+    "static/js/453.08f28149.chunk.js": "/astuto/static/js/453.08f28149.chunk.js",
+    "static/media/profile.webp": "/astuto/static/media/profile.54b982fccdd4a1959e7d.webp",
+    "index.html": "/astuto/index.html",
+    "main.5493947f.css.map": "/astuto/static/css/main.5493947f.css.map",
+    "main.9e9e04f7.js.map": "/astuto/static/js/main.9e9e04f7.js.map",
+    "453.08f28149.chunk.js.map": "/astuto/static/js/453.08f28149.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5493947f.css",
+    "static/js/main.9e9e04f7.js"
+  ]
+}

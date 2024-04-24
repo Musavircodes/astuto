@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import SearchBar from "./components/Searchbar";
+import Suggestions from "./components/suggestion";
 
 function App() {
+  const handleSearch = (query) => {
+    console.log("Searching for:", query);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App relative min-h-screen">
+      <div className="container mx-auto flex flex-col justify-center items-center h-full overflow-y-scroll">
+        <Suggestions />
+      </div>
+
+      <div className="container mx-auto flex flex-col justify-center items-center fixed bottom-0 z-10">
+        <SearchBar onSearch={handleSearch} />
+      </div>
     </div>
   );
 }
